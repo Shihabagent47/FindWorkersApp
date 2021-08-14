@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.ui.fragments.ProfileFragment">
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_header_image"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/auth_header_image_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/background" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            >
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                app:cardCornerRadius="250dp"-->
+<!--                app:cardBackgroundColor="@color/colorWhite">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"-->
+<!--                    app:cardCornerRadius="250dp"-->
+<!--                    android:layout_gravity="center">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/imageProfile"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        android:src="@drawable/ic_baseline_account_circle_24" />-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+            <com.example.workersapp.utils.BullinaTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                ></com.example.workersapp.utils.BullinaTextView>
+
+        </FrameLayout>
+
+            />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/text_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_my_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="50dp"
+        android:layout_margin="5dp"
+        android:padding="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fl_header_image">
+
+        <ImageButton
+            android:id="@+id/profilebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:backgroundTint="@color/colorWhite"
+
+
+            />
+
+        <com.example.workersapp.utils.JoseTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/colorPrimaryDark"
+
+            >
+
+        </com.example.workersapp.utils.JoseTextView>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_my_gig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="50dp"
+        android:layout_margin="5dp"
+        android:padding="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_my_profile">
+
+        <ImageButton
+            android:id="@+id/GigButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorWhite"
+            android:src="@drawable/ic_baseline_featured_play_list_24"
+
+            />
+
+        <com.example.workersapp.utils.JoseTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="12dp"
+            android:text="Gigs"
+            android:textColor="@color/colorPrimaryDark"
+            >
+
+        </com.example.workersapp.utils.JoseTextView>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_my_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="50dp"
+        android:layout_margin="5dp"
+        android:padding="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_my_gig">
+
+        <ImageButton
+            android:id="@+id/Settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorWhite"
+            android:src="@drawable/ic_baseline_settings_24" />
+
+        <com.example.workersapp.utils.JoseTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="12dp"
+            android:text="Settings"
+            android:textColor="@color/colorPrimaryDark"
+            >
+
+        </com.example.workersapp.utils.JoseTextView>
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.WoekrGigManeuActivity"
+    android:id="@+id/workerGig"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="1000dp"
+        android:backgroundTint="@color/lightgray"
+        >
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    android:layout_marginLeft="70dp"
+    android:elevation="190dp"
+    >
+    <com.example.workersapp.utils.JoseTextView
+        android:id="@+id/workersText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can work as a worker by setting\n up a gig for your profile."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"
+
+        >
+
+    </com.example.workersapp.utils.JoseTextView>
+
+</FrameLayout>
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="120dp"
+    android:layout_marginLeft="300dp"
+    >
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fltActBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        tools:ignore="VectorDrawableCompat"
+        android:backgroundTint="@color/blue"
+
+
+        />
+
+</FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+
+
+            >
+            <com.example.workersapp.utils.BullinaTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Gig"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                >
+
+            </com.example.workersapp.utils.BullinaTextView>
+
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:backgroundTint="@color/lightblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+
+
+            >
+
+            <com.example.workersapp.utils.BullinaTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Current Gig"
+                android:textColor="@color/pink"
+                android:textSize="20dp">
+
+            </com.example.workersapp.utils.BullinaTextView>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/lightblue"
+            >
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView3"
+                android:name="com.example.workersapp.activites.ui.fragments.CurrentGigFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                />
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "743753081267",
+    "project_id": "workersapp-22dac",
+    "storage_bucket": "workersapp-22dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743753081267:android:ad4d02101516d7b56e6bc6",
+        "android_client_info": {
+          "package_name": "com.example.workersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743753081267-k08ms2nbp4mf9ssn400o31md60tf868k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.workersapp",
+            "certificate_hash": "8541b3016191261a89483c9df0af7b6a67c537c0"
+          }
+        },
+        {
+          "client_id": "743753081267-8t3rc4jnaocnnq5ni4i5q6r0p8jrkoqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArrJ01czyANuywbUy9Z6mC41NsQR5iMpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743753081267-8t3rc4jnaocnnq5ni4i5q6r0p8jrkoqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

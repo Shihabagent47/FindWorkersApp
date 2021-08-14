@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-firestore-ktx:23.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dd4ce61ee1f2ba8ef5a0cd46c967dde/firebase-firestore-ktx-23.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f6868cd9bdacd0f000d2688d00896ca/firebase-firestore-ktx-23.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d883fd77e7eccdd1517ed1cde9605416/firebase-firestore-ktx-23.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d883fd77e7eccdd1517ed1cde9605416/firebase-firestore-ktx-23.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d883fd77e7eccdd1517ed1cde9605416/firebase-firestore-ktx-23.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/23.0.0/1b9a39422c263106dcf77763d0e4e0290bcae915/firebase-firestore-ktx-23.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/23.0.0/6c6141befd0c3c9a4ee856bc80eb0c0f4f50b5b7/firebase-firestore-ktx-23.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

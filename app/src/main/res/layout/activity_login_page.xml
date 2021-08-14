@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.LoginActivity"
+    android:gravity="center_horizontal"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+
+ <com.example.workersapp.utils.BullinaTextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="@dimen/titleSize"
+     android:text="Workers App"
+     android:textColor="@color/colorPrimaryDark"
+     android:layout_marginTop="90dp"
+     ></com.example.workersapp.utils.BullinaTextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="find your experts for your work"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:layout_marginTop="68dp"
+
+        />
+
+    <Button
+        android:id="@+id/findWorkers"
+        android:layout_width="147dp"
+        android:layout_height="62dp"
+
+        android:background="@drawable/roundedbutton"
+        android:text="Find Workers"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="363dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <Button
+        android:id="@+id/loginWorkers"
+        android:layout_width="147dp"
+        android:layout_height="62dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Log in"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="363dp"
+        android:layout_marginTop="50dp"
+        />
+
+
+</LinearLayout>
